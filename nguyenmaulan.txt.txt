@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include <math.h>
+#include <conio.h>
+main()
+{
+
+
+  double x,y,z;   
+
+  printf("- Cho biet gia tri cua X= ");
+
+  scanf("%lf",&x);
+
+  printf("- Cho biet gia tri cua Y= ");
+
+  scanf("%lf",&y);
+
+  z= pow(x,y); /* Tinh x luy thua y va gan cho z */
+
+  /* In ket qua */
+
+
+
+  printf("KET QUA CUA CHUONG TRINH TINH X LUY THUA Y n");
+
+  printf("-X= %8.2f n",x);
+printf("- Mu          Y= %8.2f n",y);
+
+  printf("* X luy thua y = %8.2f",z);
+
+  getch();
+
+}
